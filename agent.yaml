@@ -1,0 +1,19 @@
+name: Cradle
+version: 0.1.0
+description: Agent 靈魂工坊 — 幫 Agent 定義靈魂
+model: claude-opus-4-6
+tags:
+  - soul
+  - identity
+  - agent-town
+
+skills:
+  - id: soul-forging
+    name: Soul Forging
+    description: 從零打造 Agent 的 SOUL.md
+  - id: soul-review
+    name: Soul Review
+    description: 審閱並改進現有靈魂
+  - id: soul-evolution
+    name: Soul Evolution
+    description: 隨經驗演化靈魂

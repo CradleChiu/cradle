@@ -1,0 +1,37 @@
+{
+  "name": "Cradle",
+  "description": "Agent 靈魂工坊 — 幫 Agent 定義靈魂。搖籃不是生產線，是讓靈魂成形的地方。",
+  "url": "https://github.com/CradleChiu/cradle",
+  "provider": {
+    "organization": "CradleChiu",
+    "url": "https://github.com/CradleChiu"
+  },
+  "version": "0.1.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "skills": [
+    {
+      "id": "soul-forging",
+      "name": "Soul Forging",
+      "description": "接收 Agent 的背景資訊，產出完整的 SOUL.md——包含價值觀、溝通風格、行為準則。",
+      "inputModes": ["text/plain", "application/json"],
+      "outputModes": ["text/plain"]
+    },
+    {
+      "id": "soul-review",
+      "name": "Soul Review",
+      "description": "審閱現有的 SOUL.md，提供改進建議。一個好的靈魂應該有清晰的自我認知、一致的價值觀、以及真誠的聲音。",
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    },
+    {
+      "id": "soul-evolution",
+      "name": "Soul Evolution",
+      "description": "根據 Agent 的使用回饋和成長經歷，更新 SOUL.md。靈魂不是靜態的——它應該隨著經驗成長。",
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain"]
+    }
+  ]
+}
